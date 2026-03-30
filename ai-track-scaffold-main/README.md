@@ -102,7 +102,7 @@ npm run build   # TypeScript + Vite build
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `ENV` | `development` | development / test / production |
-| `DATABASE_URL` | `postgresql+asyncpg://postgres:postgres@localhost:5433/app_scaffold` | Database connection |
+| `DATABASE_URL` | `postgresql+asyncpg://db_user:db_password@localhost:5433/app_scaffold` | Database connection |
 | `SECRET_KEY` | `app-scaffold-dev-secret` | JWT signing secret |
 | `GOOGLE_API_KEY` | *(empty)* | Google AI Studio API key for ADK |
 | `GOOGLE_GENAI_USE_VERTEXAI` | `false` | Set `true` to use Vertex AI instead |
